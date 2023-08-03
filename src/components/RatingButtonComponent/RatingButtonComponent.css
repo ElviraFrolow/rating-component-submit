@@ -1,0 +1,22 @@
+.rating-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.rating-button-component {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: 0.5s ease-in-out;
+}
+
+.rating-button-component:hover {
+  background-color: orange;
+  cursor: pointer;
+}
